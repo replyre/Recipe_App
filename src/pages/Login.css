@@ -1,0 +1,15 @@
+.loginContainer {
+  margin: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 50vh;
+  /* background-color: aqua; */
+  align-items: center;
+}
+
+#Name,
+#Email {
+  color: black;
+  padding: 15px 15px;
+}

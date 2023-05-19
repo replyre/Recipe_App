@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  display: flex;
+  color: white;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 15px;
+}
+.nav-links > a {
+  color: grey;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-links > a:hover {
+  color: white;
+}
+.right {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  padding-right: 20px;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.loginIcon {
+  color: grey;
+}
+
+.loginIcon:hover {
+  color: white;
+}
+.loginIcon:active {
+  transform: scale(0.8);
+}
