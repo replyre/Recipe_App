@@ -10,7 +10,7 @@ Assessment Round Project
 * The Navigation bar is located at the top and contains all the links to displayable components(pages).
 * The Home tab and Login tab are provided on the left below the App name and the profile name tab is displayed on the right.
 * The Recipe Area displays the Home page, Login Page, and the Bookmarks page which are routed using React-router-dom.
-* the Home page contains a search bar and the recipe tiles.
+* The Home page contains a search bar and the recipe tiles.
 * The search bar displays recipes after fetching Data from the Edamam API,which requires an APP ID and an APP Key generated from their site.
 * The recipe tiles consist of the recipe name, recipe title, an Ingredient button and the Bookmark button (Bookmark button is only available when the user has logged in).
 * Ingredient button when clicked displays a model consisting of recipe title, image, Ingredients etc, It also provides a link to recipe documentation.
