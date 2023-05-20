@@ -16,16 +16,16 @@ const Home = () => {
   // 2)  under Developer section, click on Get Started
   // 3)  go to your dashboard then Application and click on View button
   // 4)  get the APP ID and APP Key and replace here
-  const YOUR_APP_ID = "1ff928e6";
-  const YOUR_APP_KEY = "360b99901303560e4f0fdd0d07f920a8";
+  const YOUR_APP_ID = ""; // Enter the API id
+  const YOUR_APP_KEY = ""; // Enter API key
   // API URL
-  var url = `https://api.edmam.com/search?q=${recipeQuery}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=10&calories=591-722&health=alcohol-free`;
+  var url = `https://api.edamam.com/search?q=${recipeQuery}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=10&calories=591-722&health=alcohol-free`;
   // functon to fetch data from API
   async function getRecipes() {
     await axios
       .get(url)
       .then((res) => setRecipes(res.data.hits))
-      .catch((err) => alert(err));
+      .catch((err) => console.log(err));
   }
   return (
     <div className="home">

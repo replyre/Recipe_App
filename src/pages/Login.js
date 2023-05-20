@@ -52,7 +52,7 @@ const Login = () => {
     temp.pass =
       values.pass.length > 8 ? "" : "Paassword length must be greater than 8";
     setErrors({ ...temp });
-    return Object.values(temp).every((x) => x == "");
+    return Object.values(temp).every((x) => x === "");
   };
 
   // login page build using Material UI
