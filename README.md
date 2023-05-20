@@ -2,6 +2,12 @@
 
 Assessment Round Project
 
+## Introduction
+
+Recipe App is a website built using ReactJs which allows users to view recipes online. It also allows users to login and bookmark their favourite recipes. Users can search using ingedients, cuisines, name of dishs etc. through search tab and see various recipes tiles based on the search result. Users can get details of recipe on a button click making it easier to see the ingredients and decide whether they have relevant resources or not. This App allows users to explore various cultural and international dishes and try it out in thier homes.
+
+Happy Cooking !!
+
 ## Report
 
 ### Architecture 
