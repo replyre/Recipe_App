@@ -38,7 +38,7 @@ Assessment Round Project
 ### Deployment Instructions
 
 * Download the Recipe App Code from this Github repository.
-* In the src folder, go to Home.js file, fill the APP ID and APP Key provided (or you can create yor own key and id using the instructions given in Home.js)
+* In the pages folder inside src folder, go to Home.js file, fill the APP ID and APP Key provided (or you can create yor own key and id using the instructions given in Home.js)
 * This is required for API to function.
 * Open the Recipe App path in terminal and enter **npm start**
 * _Note: Node.js must be installed in the device for the App to function_.
